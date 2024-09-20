@@ -1,5 +1,22 @@
 const newsData = [
   {
+    id: 2,
+    logo: "https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small/youtube-logo-youtube-icon-transparent-free-png.png",
+    title: "Flick refutes claim that Barcelona have a Champions League problem",
+    source: "Youtube",
+    description: [
+      {
+        type: "video",
+        content: "https://www.youtube.com/embed/gp1UxLtD7wI", // Replace with your video URL
+      },
+      {
+        type: "twitter",
+        content: "https://twitter.com/jack/status/20", // Example Twitter post URL
+      },
+    ],
+    date: "12 hrs ago",
+  },
+  {
     id: 3,
     logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2022/6/1656507538717-blob",
     image:

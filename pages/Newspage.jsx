@@ -51,6 +51,18 @@ const Newspage = () => {
     };
   }, []);
 
+  // Add Twitter widgets.js for embedding tweets
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.setAttribute("src", "https://platform.twitter.com/widgets.js");
+    script.setAttribute("async", "true");
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   if (loading) {
     return (
       <div className="loading-container">
@@ -63,8 +75,6 @@ const Newspage = () => {
     return null;
   }
 
-  const currentUrl = window.location.href;
-
   return (
     <div className="news-article">
       <div className="article-header">
@@ -72,7 +82,6 @@ const Newspage = () => {
           <img src={article.logo} alt="Source Logo" className="source-logo" />
           <span className="source">{article.source}</span>
           <span className="date">
-            {" "}
             <MdAccessTimeFilled size={20} />
             &nbsp;{article.date}
           </span>
@@ -89,14 +98,11 @@ const Newspage = () => {
         <div className="article-content">
           {article.description.map((item, index) => {
             if (item.type === "paragraph") {
-              // Check if item.content is an array
               if (Array.isArray(item.content)) {
-                // If it's an array, map over it
                 return item.content.map((paragraph, pIndex) => (
                   <p key={`${index}-${pIndex}`}>{paragraph}</p>
                 ));
               } else {
-                // If it's a single paragraph string, render it directly
                 return <p key={index}>{item.content}</p>;
               }
             } else if (item.type === "image") {
@@ -109,14 +115,30 @@ const Newspage = () => {
                 />
               );
             } else if (item.type === "video") {
+              // Embed the YouTube video using iframe
               return (
-                <video
+                <iframe
                   key={index}
-                  src={item.src}
-                  controls
-                  className="description-video"
-                  alt={item.alt}
-                />
+                  width="100%"
+                  height="315"
+                  src={item.content}
+                  title="YouTube video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              );
+            } else if (item.type === "twitter") {
+              // Embed Twitter post using blockquote
+              return (
+                <blockquote
+                  key={index}
+                  className="twitter-tweet"
+                  data-lang="en"
+                  data-theme="dark" 
+                >
+                  <a href={item.content}></a>
+                </blockquote>
               );
             }
             return null;

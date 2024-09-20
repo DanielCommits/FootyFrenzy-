@@ -17,13 +17,13 @@ const TopStories = () => {
       logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
     },
     {
-      title: "Bayern Munich concedes Jamal Musiala contract extension is tough",
+      title: "Flick refutes claim that Barcelona have a Champions League problem",
       image:
-        "https://image-service.onefootball.com/transform?w=840&h=630&dpr=2&image=https%3A%2F%2Ficdn.football-espana.net%2Fwp-content%2Fuploads%2F2024%2F09%2FMusiala-2.jpg",
+        "https://image-service.onefootball.com/transform?w=840&h=472&dpr=2&image=https%253A%252F%252Fcdn.jwplayer.com%252Fv2%252Fmedia%252FzRuwYr35%252Fposter.jpg%253Fwidth%253D720",
       link: "/news/2",
       date: "1 hr ago",
-      source: "Football Espana",
-      logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2020/7/1595518112119-blob",
+      source: "Youtube",
+      logo: "https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small/youtube-logo-youtube-icon-transparent-free-png.png",
     },
     {
       title:
