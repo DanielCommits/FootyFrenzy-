@@ -6,21 +6,21 @@ const SideNews = () => {
   const stories = [
     {
       id: 5,
-      title: "Erik ten Hag responds to Cristiano Ronaldo's Man Utd comments",
+      title: "Hugo Broos' Bafana Bafana drop on latest Fifa rankings as Nigeria's Super Eagles learn new position after 2025 Afcon qualifiers",
       image:
-      "https://assets.goal.com/images/v3/blt1df618eef7db85e7/GOAL%20-%20Multiple%20Images%20-%203%20Stacked%20-%20Facebook(146).png?auto=webp&format=pjpg&width=640&quality=60",
+      "https://assets.goal.com/images/v3/blt33ad0352f798650a/Teboho%20Mokoena%20of%20Bafana%20Bafana-2.jpg?auto=webp&format=pjpg&width=640&quality=60",
       video: null,
-      sourceLogo: "https://upload.wikimedia.org/wikipedia/commons/5/5e/One_Football_Logo_2021.png",
-      sourceName: "OneFootball",
-      time: "4 hours ago",
+      sourceLogo: "https://www.goal.com/img/logo.svg",
+      sourceName: "GOAL",
+      time: "2 hours ago",
     },
     {
       id: 6,
-      title: "Arteta signs new Arsenal contract with eyes set on major trophies",
-      image: null,
-      video: "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
-      sourceLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Arsenal_FC_logo.svg",
-      sourceName: "Arsenal FC",
+      title: "Pep Guardiola makes Arsenal title prediction and issues ominous Man City warning",
+      video: null,
+      image: "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=https%3A%2F%2Fstatic.standard.co.uk%2F2024%2F09%2F19%2F9%2F33%2FSEI222222986.jpeg%3Fwidth%3D1200%26auto%3Dwebp%26quality%3D75",
+      sourceLogo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2023/3/1679050213451-blob",
+      sourceName: "Evening Standard",
       time: "3 hours ago",
     },
     {
@@ -31,7 +31,7 @@ const SideNews = () => {
       video: null,
       sourceLogo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://images.onefootball.com/blogs_logos/circle_onefootball.png",
       sourceName: "One Football",
-      time: "2 hours ago",
+      time: "12 hours ago",
     },
     {
       id: 8,

@@ -46,6 +46,7 @@
   }
   
   .source-logo {
+    margin-right: 2px;
     width: 20px; /* Adjust as needed */
     height: 20px; /* Adjust as needed */
     border-radius: 10px;
