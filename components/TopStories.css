@@ -102,6 +102,9 @@ body.dark-mode .meta-text {
     gap: 5px;
     font-size: 10px;
   }
+  .big-card-title {
+    font-size: 0.8rem;
+  }
 }
 
 .btn-custom {
