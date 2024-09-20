@@ -52,7 +52,7 @@
 .featured-card-footer {
   display: flex;
   justify-content: flex-end;
-  font-size: 0.8rem;
+  font-size: 10px;
   color: #999;
 }
 
