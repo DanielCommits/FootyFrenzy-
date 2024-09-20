@@ -90,10 +90,10 @@ body.dark-mode .meta-text {
 
 @media (max-width: 400px) {
   .card-title {
-    font-size: 0.8rem; /* Even smaller font size for very small screens */
+    font-size: 0.6rem; /* Even smaller font size for very small screens */
   }
   .description {
-    font-size: 12px;
+    font-size: 10px;
   }
   .meta-text {
     font-size: 0.7rem;
