@@ -6,21 +6,21 @@ const SideNews = () => {
   const stories = [
     {
       id: 5,
-      title: "Erik ten Hag responds to Cristiano Ronaldo's Man Utd comments",
+      title: "Cristiano Ronaldo makes huge predictions for Lamine Yamal & Jude Bellingham",
       image:
-      "https://assets.goal.com/images/v3/blt1df618eef7db85e7/GOAL%20-%20Multiple%20Images%20-%203%20Stacked%20-%20Facebook(146).png?auto=webp&format=pjpg&width=640&quality=60",
+      "https://image-service.onefootball.com/transform?w=336&h=252&dpr=2&image=https%3A%2F%2Fimages2.minutemediacdn.com%2Fimage%2Fupload%2Fc_crop%2Cw_3737%2Ch_2102%2Cx_0%2Cy_170%2Fc_fill%2Cw_1440%2Car_16%3A9%2Cf_auto%2Cq_auto%2Cg_auto%2Fimages%2FGettyImages%2Fmmsport%2F90min_en_international_web%2F01j85dtam3sycss9wrnz.jpg",
       video: null,
-      sourceLogo: "https://upload.wikimedia.org/wikipedia/commons/5/5e/One_Football_Logo_2021.png",
-      sourceName: "OneFootball",
-      time: "4 hours ago",
+      sourceLogo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2022/3/1647627159464-blob",
+      sourceName: "90min",
+      time: "17 Sept ago",
     },
     {
       id: 6,
-      title: "Arteta signs new Arsenal contract with eyes set on major trophies",
-      image: null,
-      video: "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
-      sourceLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Arsenal_FC_logo.svg",
-      sourceName: "Arsenal FC",
+      title: "Hugo Broos' Bafana Bafana drop on latest Fifa rankings as Nigeria's Super Eagles learn new position after 2025 Afcon qualifiers",
+      video: null,
+      image: "https://assets.goal.com/images/v3/blt33ad0352f798650a/Teboho%20Mokoena%20of%20Bafana%20Bafana-2.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+      sourceLogo: "https://www.goal.com/img/logo.svg",
+      sourceName: "",
       time: "3 hours ago",
     },
     {

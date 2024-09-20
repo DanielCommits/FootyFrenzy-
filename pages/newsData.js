@@ -33,71 +33,99 @@ const newsData = [
     date: "15 Sept 2024",
   },
   {
-    id: 3,
-    logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2020/7/1595518112119-blob",
+    id: 5,
+    logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2022/3/1647627159464-blob",
     image:
-      "https://image-service.onefootball.com/transform?w=840&h=630&dpr=2&image=https%3A%2F%2Ficdn.football-espana.net%2Fwp-content%2Fuploads%2F2024%2F09%2FJulian-Alvarez.jpeg",
+      "https://image-service.onefootball.com/transform?w=336&h=252&dpr=2&image=https%3A%2F%2Fimages2.minutemediacdn.com%2Fimage%2Fupload%2Fc_crop%2Cw_3737%2Ch_2102%2Cx_0%2Cy_170%2Fc_fill%2Cw_1440%2Car_16%3A9%2Cf_auto%2Cq_auto%2Cg_auto%2Fimages%2FGettyImages%2Fmmsport%2F90min_en_international_web%2F01j85dtam3sycss9wrnz.jpg",
     title:
-      "Julian Alvarez's form is expected to soar following his first Atletico Madrid goal, according to Diego Simeone.",
+      "Cristiano Ronaldo makes huge predictions for Lamine Yamal & Jude Bellingham",
     subtitle:
-      "Atletico Madrid’s return to La Liga action sparked a torrent of positives for Diego Simeone. Los Rojiblancos strolled to a 3-0 home win against Valencia in the Spanish capital as Conor Gallagher and Julian Alvarez grabbed their first club goals.",
-    source: "Football Espana",
+      "Cristiano Ronaldo has backed Lamine Yamal and Jude Bellingham to be generation-defining talents in the future. The pair, who represent El Clasico rivals Barcelona and Real Madrid, are already seen as two of the top players in the world at the tender ages of 17 and 21 respectively, having dazzled at both club and international level.",
+    source: "90min",
     description: [
       {
         type: "paragraph",
-        content:
-          "A first goal is crucial for strikers to adapt, and Simeone is confident he can now kick on and enjoy a strong season in the Atletico Madrid attack. ",
+        content: [
+          "Just how far Yamal and Bellingham can go remains to be seen, but Ronaldo believes the young stars will reach the very top of football if fate is kind to them.",
+          "Beginning with Yamal, Ronaldo told his YouTube channel: I see huge potential and great talent. He needs luck, because he is very young. I hope he doesn't get any problems.",
+          "He has competition that helps him a lot. The Spain national team is really, really good, and I think he has huge potential. Let's see what's going to happen. I believe he's going to be one of the best players for this new generation.",
+        ],
       },
       {
         type: "image",
-        src: "https://image-service.onefootball.com/transform?w=840&h=420&dpr=2&image=https%3A%2F%2Ficdn.football-espana.net%2Fwp-content%2Fuploads%2F2024%2F09%2FMusiala-1.jpg",
-        alt: "alvarez scores",
+        src: "https://image-service.onefootball.com/transform?w=336&h=189&dpr=2&image=https%3A%2F%2Fimages2.minutemediacdn.com%2Fimage%2Fupload%2Fc_crop%2Cw_1023%2Ch_682%2Cx_0%2Cy_0%2Fc_fill%2Cw_720%2Car_3%3A2%2Cf_auto%2Cq_auto%2Cg_auto%2Fimages%2FGettyImages%2Fmmsport%2F90min_en_international_web%2F01j85dve9kapwdzth1fr.jpg",
+        alt: "Cristiano Ronaldo",
       },
       {
         type: "paragraph",
         content:
-          "  _The way his teammates celebrated and the crowd cheered his goal. We needed him to score, so he would be calmer, and hopefully it will be the first of many_ - Simeone said at full time.",
+          "Ronaldo has high hopes for the pair. Keen to show some praise for Bellingham as well, Ronaldo admitted moving to Madrid this summer helped the England international take his game to the next level. Huge potential, Ronaldo said of Bellingham. Huge talent. ",
       },
       {
-        type: "image",
-        src: "https://image-service.onefootball.com/transform?w=840&h=475&dpr=2&image=https%3A%2F%2Ficdn.football-espana.net%2Fwp-content%2Fuploads%2F2024%2F09%2Ffbl-esp-liga-atletico-madrid-valencia-2.jpg",
-        alt: "alvarez scores",
+        type: "paragraph",
+        content:
+          "He's come to the club when the environment was clean, was good, and he's grown like the other ones, like [Eduardo] Camavinga, Rodrygo, Vinicius...He's in a team that helps him to be a top player and I also believe he'll be one of the best of the next generation. Yamal and Bellingham are slated to butt heads on October 26, when Barcelona travel to the Santiago Bernabeu to face Madrid.",
       },
     ],
-    date: "15 Sept 2024",
+    date: "17 Sept 2024",
   },
   {
-    id: 4,
-    logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://images.onefootball.com/blogs_logos/circle_onefootball.png",
+    id: 6,
+    logo: "https://www.goal.com/img/logo.svg",
     image:
-      "https://image-service.onefootball.com/transform?w=840&h=561&dpr=2&image=https%3A%2F%2Fwp-images.onefootball.com%2Fwp-content%2Fuploads%2Fsites%2F10%2F2024%2F09%2FWolverhampton-Wanderers-FC-v-Newcastle-United-FC-Premier-League-1726421280.jpg",
+      "https://assets.goal.com/images/v3/blt33ad0352f798650a/Teboho%20Mokoena%20of%20Bafana%20Bafana-2.jpg?auto=webp&format=pjpg&width=1080&quality=60",
     title:
-      "🔬 Newcastle completes comeback victory against Wolves as Arsenal wins the NLD",
+      "Hugo Broos' Bafana Bafana drop on latest Fifa rankings as Nigeria's Super Eagles learn new position after 2025 Afcon qualifiers",
     subtitle:
-      "Let's look at what happened in the final two games of Gameweek 4 of the new Premier League season, which concluded on Sunday.",
-    source: "One Football",
+      "Both Bafana Bafana and the Super Eagles were in action during the recent qualifiers for Africa's most prestigious football tournament.",
+    source: "GOAL",
     description: [
       {
         type: "paragraph",
         content:
-          "In the most anticipated match of the weekend, Arsenal triumphed 1-0 against Tottenham, reclaiming the title of North London's best team, despite the absence of Declan Rice, Martin Ødegaard, and recently signed Mikel Merino. Now, in their previous three trips to their fiercest adversaries, the Gunners have prevailed and Gabriel was the hero as Arsenal displayed their mastery of set pieces in the 64th minute, heading home a header from a corner.",
+          "Bafana Bafana have dropped on the latest Fifa world rankings and are now number 59 worldwide from 57. On the African continent, Hugo Broos' side slid one run down from position 10 to 11.",
       },
       {
         type: "paragraph",
         content:
-          "Newcastle overcame Alexander Isak's injury at halftime in the subsequent kickoff to upset Wolves 2-1 at Molineux. Just before halftime, Mario Lemina gave the home team the lead, after an incredible counterattack that included a brilliant dummy by João Gomes. However, the Magpies made a comeback, hitting two long-range goals in a five-minute period at the end of the game. Their first had more than a hint of luck about it as Fabian Schär's shot took a sharp deflection from Craig Dawson and nestled in the upper corner. Though Harvey Barnes, a substitute, came in from the left and curled in an unbelievable screamer with ten minutes remaining to win it, their second goal was anything but fortunate.",
+          "This follows the recent 2025 Africa Cup of Nations qualifiers in which they drew 2-2 with Sudan before beating South Sudan 3-2. While South Africa moved, their continental rivals Nigeria remain at number sixth on the continent and 39th in the world.",
       },
       {
         type: "image",
-        src: "https://image-service.onefootball.com/transform?w=840&h=561&dpr=2&image=https%3A%2F%2Fwp-images.onefootball.com%2Fwp-content%2Fuploads%2Fsites%2F10%2F2024%2F09%2FTottenham-Hotspur-FC-v-Arsenal-FC-Premier-League-1726420453.jpg",
+        src: "https://assets.goal.com/images/v3/bltfe6b491764a48b46/Evidence_Makgopa.jpg?auto=webp&format=pjpg&width=750&quality=60",
+      },
+      {
+        type: "paragraph",
+        content: [
+          "AFRICA'S TOP-RANKED TEAMS",
+          "1. Morocco",
+          "2. Senegal",
+          "3. Egypt",
+          "4. Ivory Coast",
+          "5. Tunisia",
+          "6. Nigeria",
+          "7. Algeria",
+          "8. Cameroon",
+          "9. Mali",
+          "10. DR Congo",
+        ],
+      },
+      {
+        type: "image",
+        src: "https://assets.goal.com/images/v3/blt1a99c5029d48cef4/Thapelo%20Morena%20&%20Khuliso%20Mudau.jpg?auto=webp&format=pjpg&width=1080&quality=60",
       },
       {
         type: "paragraph",
         content:
-          "Mikel Arteta needed his other important players to step up today at the Tottenham Hotspur Stadium since his first-choice midfield was completely destroyed. Gabriel did just that, and he did it on both sides of the field.",
+          "Getting out of the top 10 might give Broos and his men the pressure to up their socks in their next international assignments. They would want to be one of the best teams in Africa so that they will be top seeds when the draw for the 2025 Afcon finals is conducted in the event they qualify for the tournament. That way, they will avoid other top-seeded teams.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "As for the Super Eagles, they will be happy to maintain their position in the top 40 in the world and top 10 in African. The Nigerian Football Federation's search for a new head coach continues with the 2025 Afcon qualifiers set to resume next month.",
       },
     ],
-    date: "08 Sept 2024",
+    date: "4 hrs ago",
   },
   {
     id: 7,

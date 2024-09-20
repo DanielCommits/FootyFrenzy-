@@ -69,11 +69,7 @@ const Newspage = () => {
     <div className="news-article">
       <div className="article-header">
         <div className="article-meta">
-          <img
-            src={article.logo}
-            alt="Source Logo"
-            className="source-logo"
-          />
+          <img src={article.logo} alt="Source Logo" className="source-logo" />
           <span className="source">{article.source}</span>
           <span className="date">
             {" "}
@@ -91,33 +87,41 @@ const Newspage = () => {
         />
         <h1 className="article-subtitle">{article.subtitle}</h1>
         <div className="article-content">
-  {article.description.map((item, index) => {
-    if (item.type === "paragraph") {
-      return <p key={index}>{item.content}</p>;
-    } else if (item.type === "image") {
-      return (
-        <img
-          key={index}
-          src={item.src}
-          alt={item.alt}
-          className="description-image"
-        />
-      );
-    } else if (item.type === "video") {
-      return (
-        <video
-          key={index}
-          src={item.src}
-          controls
-          className="description-video"
-          alt={item.alt}
-        />
-      );
-    }
-    return null;
-  })}
-</div>
-
+          {article.description.map((item, index) => {
+            if (item.type === "paragraph") {
+              // Check if item.content is an array
+              if (Array.isArray(item.content)) {
+                // If it's an array, map over it
+                return item.content.map((paragraph, pIndex) => (
+                  <p key={`${index}-${pIndex}`}>{paragraph}</p>
+                ));
+              } else {
+                // If it's a single paragraph string, render it directly
+                return <p key={index}>{item.content}</p>;
+              }
+            } else if (item.type === "image") {
+              return (
+                <img
+                  key={index}
+                  src={item.src}
+                  alt={item.alt}
+                  className="description-image"
+                />
+              );
+            } else if (item.type === "video") {
+              return (
+                <video
+                  key={index}
+                  src={item.src}
+                  controls
+                  className="description-video"
+                  alt={item.alt}
+                />
+              );
+            }
+            return null;
+          })}
+        </div>
       </div>
 
       <div id="HCB_comment_box">
