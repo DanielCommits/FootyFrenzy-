@@ -13,7 +13,7 @@ const TopStories = () => {
         "https://assets.goal.com/images/v3/bltcd0748b823e57e98/GOAL%20-%20Multiple%20Images%20-%203%20Stacked%20-%20Facebook%20-%202024-08-16T143707.282.png?auto=webp&format=pjpg&width=1080&quality=60",
       link: "/news/1",
       date: "1 hr ago",
-      source: "Goal",
+      source: "GOAL",
       logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
     },
     {
@@ -37,13 +37,13 @@ const TopStories = () => {
     },
     {
       title:
-        "🔬 Newcastle completes comeback victory against Wolves as Arsenal wins the NLD",
+        "Joshua Zirkzee already 'looks a bit like' Zlatan Ibrahimovic but needs Hojlund.",
       image:
-        "https://image-service.onefootball.com/transform?w=840&h=630&dpr=2&image=https%3A%2F%2Fwp-images.onefootball.com%2Fwp-content%2Fuploads%2Fsites%2F10%2F2024%2F09%2FTottenham-Hotspur-FC-v-Arsenal-FC-Premier-League-1726420793-1000x694.jpg",
+        "https://assets.goal.com/images/v3/blt0d3ea0afab8391e0/Zirkzee%20needs%20Hojlund%20to%20reach%20full%20potential.jpg?auto=webp&format=pjpg&width=828&quality=60",
       link: "/news/4",
-      date: "14 hrs ago",
-      source: "One Football",
-      logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://images.onefootball.com/blogs_logos/circle_onefootball.png",
+      date: "1 hr ago",
+      source: "GOAL",
+      logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
     },
   ];
 

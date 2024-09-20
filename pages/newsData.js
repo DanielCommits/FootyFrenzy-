@@ -1,36 +1,67 @@
 const newsData = [
   {
-    id: 2,
-    logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2020/7/1595518112119-blob",
+    id: 4,
+    logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
     image:
-      "https://image-service.onefootball.com/transform?w=840&h=630&dpr=2&image=https%3A%2F%2Ficdn.football-espana.net%2Fwp-content%2Fuploads%2F2024%2F09%2FMusiala-2.jpg",
-    title: "Bayern Munich concedes Jamal Musiala contract extension is tough",
+      "https://assets.goal.com/images/v3/blt0d3ea0afab8391e0/Zirkzee%20needs%20Hojlund%20to%20reach%20full%20potential.jpg?auto=webp&format=pjpg&width=828&quality=60",
+    title: "Joshua Zirkzee already 'looks a bit like' Zlatan Ibrahimovic - but Man Utd's £36m man desperately needs return of Rasmus Hojlund to unlock full potential",
     subtitle:
-      "Before the end of 2024, Jamal Musiala, a standout player for Bayern Munich, will hold contract extension negotiations. The Germany international has been linked to a possible departure from the Bundesliga giants, with Real Madrid and Barcelona both expressing interest in signing him.",
-    source: "Football Espana",
+      "The Dutchman showed off his unique skillset at Southampton, and could become a fan favourite with a partner-in-crime up front",
+    source: "GOAL",
     description: [
       {
         type: "paragraph",
         content:
-          "Musiala’s current term in Bavaria expires in June 2026 but he is yet to initiate formal negotiations on a renewal. The 21-year-old previously indicated he is not actively wanting to leave Munich with the notion of playing outside Germany not currently on his mind.",
+          "Joshua Zirkzee was handed only his second start for the club since his £36m ($48m) switch from Bologna, and grabbed the opportunity with both hands. All of United's best attacks went through the 23-year-old as the Saints toiled in vain to pin him down. Zirkzee was also guilty of some wasteful finishing again, but he wasn't signed to be the Red Devils' primary marksman. For so much of last season, United lacked a creative spark; that's what Zirkzee provides. Rasmus Hojlund will certainly have been rubbing his hands together watching Zirkzee's latest outing because the Dutchman looks like the perfect foil for the Dane, who Ten Hag desperately needs to welcome back from injury heading into a make-or-break run of games...",
       },
       {
         type: "paragraph",
         content:
-          "However, despite that assurance, Bayern Munich do not want to take any chances, and allow his contract to wind down. As per reports from German outlet Sport1, Bayern Munich director Max Eberl admitted it will not be easy to convince Musiala to stay. “It’s difficult, but not impossible – as Jamal knows what he has at Bayern Munich. He grew up here and has brought himself to this level”, he said. ",
+          "As per Sofascore, Zirkzee completed 82 percent of his passes against the Saints, the majority of which went forward, won seven of his 11 duels and racked up an impressive expected goals (xG) total of 1.14. The talented youngster scored on his debut to give his new club victory against Fulham on the opening weekend of the new season, but he properly announced himself as a United player at St Mary's. This was the version of Zirkzee who became a cult hero at Bologna. He doesn't have the selfish mindset to be a prolific goal-scorer, and that's okay; United have signed a technically-gifted forward who always wants to be involved in the build-up play and gets more of a kick out of providing chances for his team-mates. ",
       },
       {
         type: "image",
-        src: "https://image-service.onefootball.com/transform?w=840&h=420&dpr=2&image=https%3A%2F%2Ficdn.football-espana.net%2Fwp-content%2Fuploads%2F2024%2F09%2FMusiala-1.jpg",
-        alt: "musiala",
+        src: "https://assets.goal.com/images/v3/getty-2171945423/crop/MM5DKMBUGQ5DEOBTG45G433XMU5DCNRZHIYA====/GettyImages-2171945423.jpg?auto=webp&format=pjpg&width=828&quality=60",
+        alt: "Zirkzee",
       },
       {
         type: "paragraph",
         content:
-          "“Talks are intensifying. We are extremely ambitious, and he knows that, he wants to win titles.” Musiala has already scored two Bundesliga goals this season, after hitting double figures in the last two campaigns, and he will face Barcelona in the UEFA Champions League in October.",
+          "I am what I call a false striker, Zirkzee told the Daily Mirror in August. Not a No.9, not a No.10. I am a 9.5! That's my game. Maybe I'm a little different than others. But being different is good, right? It certainly is for United, who only scored 57 Premier League goals last season - the joint-worst record in the top 10. Zirkzee gives them a whole new dimension in attack, and crucially, he's not afraid to take risks. I want to play a pure game, the Netherlands international added. Nutmegs, chops and backheels are moments that belong in football. That style has value for me. It's the soccer kid in me because it’s supposed to be fun too. You have to pick the right moments. It's intuition. I think I have excellent skills. I spent a lot of time on that as a kid. But if I lose the ball, I want to regain it immediately with the team. But the fancy footwork is part of my game at the end of the day.",
       },
+      {
+        type: "image",
+        src: "https://assets.goal.com/images/v3/blt4d97c31dbac23c7b/GOAL%20-%20Multiple%20Images%20-%202%20Split%20-%20Facebook%20(100).jpg?auto=webp&format=pjpg&width=828&quality=60",
+        alt: "Zirkzee, Zlatan",
+      },
+      {
+        type: "paragraph",
+        content:
+          "It also helps that he idolises a certain Swede who did the same thing during his time in Manchester. I would love it if, in a few years’ time, people said that my game looks a bit like Zlatan Ibrahimovic, Zirkzee told reporters last week. The start, with the winning goal against Fulham, was nice. Then we lost twice - and you know that at a big club like Manchester United the attention then comes full on. I believe it will be fine. I've always had that. I never doubted it would still work out with my career. Ibrahimovic scored a very respectable 29 goals in two seasons with the Red Devils, but the truth is, they signed him too late at 34. The best years of Ibrahimovic's career came at Juventus, Inter and AC Milan between 2004 and 2012, at which stage he was a masterful playmaker as well as a deadly marksman.",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Zirkzee doesn't possess the same instincts in front of goal as Ibrahimovic, but he is equally as imaginative on the ball. And just like the Swedish icon in his prime, Zirkzee uses his imposing physical frame and deceptive turn of pace to barge past defenders at will. The arrogant streak that helped bolster the Ibrahimovic brand is not so prominent in Zirkzee, but he doesn't want for self-confidence either. In the Southampton game, there were real signs that the Dutch ace could become a similarly inspirational figure for United, especially when Ten Hag can field his strongest team. ",
+      },
+      {
+        type: "image",
+        src: "https://assets.goal.com/images/v3/getty-2163344407/crop/MM5DENRSGA5DCNBXGQ5G433XMU5DAORRGI4Q====/GettyImages-2163344407.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+        alt: "Hojlund",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Zirkzee and Hojlund could lead the line with Fernandes and either Alejandro Garnacho or Amad backing them up, while Kobbie Mainoo and new addition Manuel Ugarte sit at the base of the midfield in a compact shape that doesn't leave United exposed to swift counters. There is enough firepower there to blow most teams away, too. Hojlund was starved of service in his debut season at United but still scored 16 goals, so imagine what he could do with Zirkzee next to him. The former Bologna star will hold the ball up and look to pick out the intelligent runs in behind that Hojlund made so often in 2023-24. ",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Indeed, Ten Hag has already admitted that is his ideal gameplan, telling Viaplay Sports in the summer: Joshua Zirkzee & Rasmus Hojlund can play together. They compliment each other. They look like a match made in heaven on paper. Hojlund's finishing is still quite erratic, but he gets in the right positions and will see a lot more chances with Zirkzee on hand to provide stellar service. The only concern is whether Hojlund can avoid any further injury setbacks, because United don't have another centre-forward to call upon, which has seriously hampered their progress in recent weeks. ",
+      },
+      
     ],
-    date: "15 Sept 2024",
+    date: "20 Sept 2024",
   },
   {
     id: 5,
