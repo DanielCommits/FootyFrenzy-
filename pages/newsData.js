@@ -100,86 +100,6 @@ const newsData = [
     date: "08 Sept 2024",
   },
   {
-    id: 5,
-    logo: "https://www.goal.com/img/logo.svg",
-    image:
-      "https://assets.goal.com/images/v3/blt33ad0352f798650a/Teboho%20Mokoena%20of%20Bafana%20Bafana-2.jpg?auto=webp&format=pjpg&width=640&quality=60",
-    title:
-      "Hugo Broos' Bafana Bafana drop on latest Fifa rankings as Nigeria's Super Eagles learn new position after 2025 Afcon qualifiers",
-    subtitle:
-      "Both Bafana Bafana and the Super Eagles were in action during the recent qualifiers for Africa's most prestigious football tournament.",
-    source: "GOAL",
-    description: [
-      {
-        type: "paragraph",
-        content: `Bafana Bafana have dropped on the latest Fifa world rankings and are now number 59 worldwide from 57. On the African continent, Hugo Broos' side slid one run down from position 10 to 11.`,
-      },
-      {
-        type: "paragraph",
-        content: `This follows the recent 2025 Africa Cup of Nations qualifiers in which they drew 2-2 with Sudan before beating South Sudan 3-2. While South Africa moved, their continental rivals Nigeria remain at number sixth on the continent and 39th in the world.`,
-      },
-      {
-        type: "image",
-        src: "https://assets.goal.com/images/v3/bltfe6b491764a48b46/Evidence_Makgopa.jpg?auto=webp&format=pjpg&width=640&quality=60",
-      },
-      {
-        type: "paragraph",
-        content: [
-          "AFRICA'S TOP-RANKED TEAMS",
-          "1. Morocco",
-          "2. Senegal",
-          "3. Egypt",
-          "4. Ivory Coast",
-          "5. Tunisia",
-          "6. Nigeria",
-          "7. Algeria",
-          "8. Cameroon",
-          "9. Mali",
-          "10. DR Congo",
-        ]
-      },
-      {
-        type: "image",
-        src: "https://assets.goal.com/images/v3/blt1a99c5029d48cef4/Thapelo%20Morena%20&%20Khuliso%20Mudau.jpg?auto=webp&format=pjpg&width=640&quality=60",
-      },
-      {
-        type: "paragraph",
-        content: `"They’ve been the biggest challenge, title contenders the last two seasons they are there and they will be there for many years because they create a deeper squad, a young team. "So it’s another good test but we are in September, so I like to see the team, many things we are better than the past, even better than the past how we’ve done it, we’ll see what happens on Sunday."`,
-      },
-    ],
-    date: "3 hrs ago",
-  },
-  {
-    id: 6,
-    logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2023/3/1679050213451-blob",
-    image:
-      "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=https%3A%2F%2Fstatic.standard.co.uk%2F2024%2F09%2F19%2F9%2F33%2FSEI222222986.jpeg%3Fwidth%3D1200%26auto%3Dwebp%26quality%3D75",
-    title:
-      "Pep Guardiola makes Arsenal title prediction and issues ominous Man City warning",
-    subtitle:
-      "The two title favourites clash at the Etihad on Sunday. Pep Guardiola expects Arsenal to be Manchester City's key title rivals for many years thanks to the work of Mikel Arteta, but has fired a warning to his former assistant.",
-    source: "Evening Standard",
-    description: [
-      {
-        type: "paragraph",
-        content: `The 44-year-old confirmed on Thursday that the Foxes have already contacted the league about the incident, seeking more answers. For Cooper and his team, allowing Palace’s first goal was a mistake because a “false image” was used and the decision needs to be confronted.`,
-      },
-      {
-        type: "paragraph",
-        content: `Premier League champions City welcome the Gunners to the Etihad Stadium on Sunday in a huge early test of their title credentials. For the past two seasons, City have held off the Gunners in close title races so the weekend result is expected to have a huge say at the end of the campaign. Guardiola, speaking after being held by Inter Milan to a 0-0 draw in the opening round of the Champions League, expects another difficult test but says City have themselves improved.`,
-      },
-      {
-        type: "paragraph",
-        content: `"I don’t know the idea of Mikel of how they’re going to play. I’ll have to read it and adapt it. "But it’s another unbelievable team, they defend really well, they don’t concede chances, they don’t concede goals, they are really good in many aspects, they control everything.`,
-      },
-      {
-        type: "paragraph",
-        content: `"They’ve been the biggest challenge, title contenders the last two seasons they are there and they will be there for many years because they create a deeper squad, a young team. "So it’s another good test but we are in September, so I like to see the team, many things we are better than the past, even better than the past how we’ve done it, we’ll see what happens on Sunday."`,
-      },
-    ],
-    date: "3 hrs ago",
-  },
-  {
     id: 7,
     logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://images.onefootball.com/blogs_logos/circle_onefootball.png",
     image:
@@ -197,6 +117,10 @@ const newsData = [
       {
         type: "paragraph",
         content: `“It was an awful human error that we believe has been hidden a little bit,” Cooper said on the incident. “That’s been as disappointing as the decision. We didn’t feel it was right, asked for clarity and have seen images that showed he was clearly offside.`,
+      },
+      {
+        type: "video",
+        content: "https://path-to-video.mp4", // Replace with your video URL
       },
       {
         type: "paragraph",
