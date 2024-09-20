@@ -92,9 +92,6 @@ body.dark-mode .meta-text {
   .card-title {
     font-size: 0.8rem; /* Even smaller font size for very small screens */
   }
-  .description {
-    font-size: 10px;
-  }
   .meta-text {
     font-size: 0.7rem;
     display: flex;
@@ -104,6 +101,9 @@ body.dark-mode .meta-text {
   }
   .big-card-title {
     font-size: 0.8rem;
+  }
+  .card-text {
+  font-size: 6px;
   }
 }
 
