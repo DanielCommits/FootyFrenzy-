@@ -1,10 +1,73 @@
 const newsData = [
   {
+    id: 3,
+    logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2022/6/1656507538717-blob",
+    image:
+      "https://image-service.onefootball.com/transform?w=336&h=252&dpr=2&image=https%3A%2F%2Fstatic.independent.co.uk%2F2024%2F09%2F19%2F22%2F2024-09-19T205724Z_29786767_UP1EK9J1M7MRM_RTRMADP_3_SOCCER-CHAMPIONS-ATA-ARS-REPORT.jpg%3Fquality%3D75%26width%3D1200%26auto%3Dwebp",
+    title:
+      "David Raya magic rescues Arsenal but Champions League draw raises further questions",
+    subtitle:
+      "A double save reflects a double-edged display. It could have been worse for Arsenal, it never really looked like getting much better. That may be more of an issue for this new Champions League than Mikel Arteta, who seemed content enough to come from Atalanta with a 0-0 draw and an opening point. That was largely thanks to both the intelligence and instinct of David Raya.",
+    source: "The Independent",
+    description: [
+      {
+        type: "paragraph",
+        content: `The goalkeeper first saved Mateo Retegui's penalty after a quick run to goalkeeping coach Inaki Cana during a check, before somehow getting up to palm away the forward’s rebound. It ensured yet another clean sheet for Arsenal, their fourth in five games this season. If such defensive assurance is going to bring a lot of nils on one side of the scoreboard, though, the increasing question is whether a certain attacking predictability without Martin Odegaard will also lead to more nils on the other side, too.`,
+      },
+      {
+        type: "paragraph",
+        content: `This game was perhaps a warning for the next few months – maybe months – although the context inevitably made Arteta more conservative. It was of a piece with the 1-0 win over Tottenham in that sense.`,
+      },
+      {
+        type: "image",
+        src: "https://image-service.onefootball.com/transform?w=336&h=189&dpr=2&image=https%3A%2F%2Fstatic.independent.co.uk%2F2024%2F09%2F19%2F22%2F2024-09-19T205353Z_1927031554_UP1EK9J1KA1QB_RTRMADP_3_SOCCER-CHAMPIONS-ATA-ARS-REPORT.jpg%3Fquality%3D75%26width%3D640%26auto%3Dwebp",
+        alt: "Raya",
+      },
+      {
+        type: "paragraph",
+        content: `Given this was the opening game of a fairly forgiving “Super League” group stage, to add to recent injuries, Arsenal were always going to play it tight around their own box and refuse to commit too many players forward. That inevitably took away invention but a question that is going to rise is whether they are overly dependent on Odegaard for creativity – at least until they just blow away a few teams again. Raheem Sterling, who did offer Arsenal’s best pass of the game on coming on as a sub, may be increasingly important.`,
+      },
+      {
+        type: "paragraph",
+        content: `This can’t be divorced from the nature of the new Champions League, either. It said much that it took a second-half penalty to finally set things off a bit. The decision was soft, which led to a long check – and possibly worked against Atalanta. After Ederson went down under a needless but soft pull by Thomas Partey at the edge of the box, referee Clement Turpin had no choice but to get the call checked. That gave Raya the time to run right over to goalkeeping coach Cana right on the halfway line, and have a long chat with his mouth covered. Raya later claimed he “got lucky” only to instantly reveal luck had nothing to do with it as he said he went to Cana “to get a better sense of what to do and what not to do”.`,
+      },
+      {
+        type: "image",
+        src: "https://image-service.onefootball.com/transform?w=336&h=189&dpr=2&image=https%3A%2F%2Fstatic.independent.co.uk%2F2024%2F09%2F19%2F22%2F1a588e23b5db5f619d6da80acd48e0d9Y29udGVudHNlYXJjaGFwaSwxNzI2ODY1NzAz-2.77515733.jpg%3Fquality%3D75%26width%3D640%26auto%3Dwebp",
+        alt: "Raya",
+      },
+      {
+        type: "paragraph",
+        content: `The moment still stood out all the more, and dominates discussion of this match, because there was so little else. This is where the concerns about Odegaard’s injury increase. Arsenal were always going to lack imagination without their playmaker but what has been pronounced about the two games so far has been just how more one-dimensional they have been in attack. There has been an even greater reliance on set-pieces and counters than expected. They were the source of their two best opportunities – although it was notable that substitute Sterling was central to setting up the second. Bukayo Saka tested Marco Carnesecchi with that fine low free-kick after just 13 minutes, the goalkeeper doing enough to also prevent Partey pouncing. It wasn’t far off Raya’s stop in terms of quality and necessity. Arsenal evidently didn’t feel much necessity to get forward, though, as that was about it for close to an hour. They barely troubled Carnesecchi’s goal until the game started to be stretched late on. Then, of course on a quick break, Sterling did so well to slip Gabriel Martinelli through. The Brazilian instead took it too far wide then blazed it over the bar. He really should have scored. The Martinelli of 2022-23 surely would have scored.`,
+      },
+
+      {
+        type: "image",
+        src: "https://image-service.onefootball.com/transform?w=336&h=189&dpr=2&image=https%3A%2F%2Fstatic.independent.co.uk%2F2024%2F09%2F19%2F22%2F2024-09-19T203504Z_571239953_UP1EK9J1L6FR6_RTRMADP_3_SOCCER-CHAMPIONS-ATA-ARS-REPORT.jpg%3Fquality%3D75%26width%3D640%26auto%3Dwebp",
+        alt: "idk",
+      },
+      {
+        type: "paragraph",
+        content: `It didn’t look like anyone on either side felt it mattered much at the final whistle, certainly not amid the hugs, waves and smiles. The match did crystallise another core issue with this new Champions League, that is the kind of element that can only be registered as you experience the reality of the competition as it is played. That is the dilution of intensity that comes with this vaunted virtue of teams playing eight different opponents once rather than three opponents twice.`,
+      },
+      {
+        type: "paragraph",
+        content: `As intriguing as that variety is – although that is something else that may change if it’s usually the same teams – it does actually mean there is less intrigue to the fixtures.That is because they are no longer zero-sum games. Arsenal getting a result at Atalanta doesn’t mean as much as it would if they were both in the same group, because there would be direct consequence both ways.Now, both can simply look to other fixtures. It was similar with Manchester City and Internazionale and some of the other matches, where teams seemed content enough not to lose.`,
+      },
+      {
+        type: "paragraph",
+        content: `The clubs being part of one massive league has had the ironic effect of making everything seem smaller and more blinkered. They will spend a lot of the first few games in their own bubble, rather than looking to other results and what they might mean. That will probably change towards the end, when teams realise what they have to do. For now, the tone of this game fitted with the tepid tone of the week.`,
+      },
+    ],
+    date: "12 hrs ago",
+  },
+  {
     id: 4,
     logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
     image:
       "https://assets.goal.com/images/v3/blt0d3ea0afab8391e0/Zirkzee%20needs%20Hojlund%20to%20reach%20full%20potential.jpg?auto=webp&format=pjpg&width=828&quality=60",
-    title: "Joshua Zirkzee already 'looks a bit like' Zlatan Ibrahimovic - but Man Utd's £36m man desperately needs return of Rasmus Hojlund to unlock full potential",
+    title:
+      "Joshua Zirkzee already 'looks a bit like' Zlatan Ibrahimovic - but Man Utd's £36m man desperately needs return of Rasmus Hojlund to unlock full potential",
     subtitle:
       "The Dutchman showed off his unique skillset at Southampton, and could become a fan favourite with a partner-in-crime up front",
     source: "GOAL",
@@ -59,7 +122,6 @@ const newsData = [
         content:
           "Indeed, Ten Hag has already admitted that is his ideal gameplan, telling Viaplay Sports in the summer: Joshua Zirkzee & Rasmus Hojlund can play together. They compliment each other. They look like a match made in heaven on paper. Hojlund's finishing is still quite erratic, but he gets in the right positions and will see a lot more chances with Zirkzee on hand to provide stellar service. The only concern is whether Hojlund can avoid any further injury setbacks, because United don't have another centre-forward to call upon, which has seriously hampered their progress in recent weeks. ",
       },
-      
     ],
     date: "20 Sept 2024",
   },
@@ -177,10 +239,10 @@ const newsData = [
         type: "paragraph",
         content: `“It was an awful human error that we believe has been hidden a little bit,” Cooper said on the incident. “That’s been as disappointing as the decision. We didn’t feel it was right, asked for clarity and have seen images that showed he was clearly offside.`,
       },
-      {
-        type: "video",
-        content: "https://path-to-video.mp4", // Replace with your video URL
-      },
+      // {
+      //   type: "video",
+      //   content: "https://path-to-video.mp4", // Replace with your video URL
+      // },
       {
         type: "paragraph",
         content: `“Everything that has been seen has been a false image. We’ve had a massive error go against us and we don’t want it to go under the radar because that’s not fair on the players or the supporters. “Errors like that should never happen, especially with VAR. We felt very let down by it and we needed to stand up for the club and tell them what we thought.`,

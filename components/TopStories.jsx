@@ -27,13 +27,13 @@ const TopStories = () => {
     },
     {
       title:
-        "Julian Alvarez's form is expected to soar following his first Atletico Madrid goal, according to Diego Simeone.",
+        "David Raya magic rescues Arsenal but Champions League draw raises further questions",
       image:
-        "https://image-service.onefootball.com/transform?w=840&h=630&dpr=2&image=https%3A%2F%2Ficdn.football-espana.net%2Fwp-content%2Fuploads%2F2024%2F09%2FJulian-Alvarez.jpeg",
+        "https://image-service.onefootball.com/transform?w=336&h=252&dpr=2&image=https%3A%2F%2Fstatic.independent.co.uk%2F2024%2F09%2F19%2F22%2F2024-09-19T205724Z_29786767_UP1EK9J1M7MRM_RTRMADP_3_SOCCER-CHAMPIONS-ATA-ARS-REPORT.jpg%3Fquality%3D75%26width%3D1200%26auto%3Dwebp",
       link: "/news/3",
       date: "1 hr ago",
-      source: "Football Espana",
-      logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2020/7/1595518112119-blob",
+      source: "The Independent",
+      logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2022/6/1656507538717-blob",
     },
     {
       title:
