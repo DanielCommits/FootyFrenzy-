@@ -11,7 +11,7 @@ const newsData = [
       },
       {
         type: "twitter",
-        content: "https://x.com/Thebarcaextra/status/1836883713474396346", // Example Twitter post URL
+        content: "https://www.twitter.com/Thebarcaextra/status/1836883713474396346", // Example Twitter post URL
       },
     ],
     date: "12 hrs ago",
