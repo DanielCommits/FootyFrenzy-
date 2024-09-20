@@ -47,7 +47,6 @@
   margin: 5px 0;
 }
 
-
 .featured-card-footer {
   display: flex;
   justify-content: flex-end;
@@ -69,7 +68,7 @@ body.dark-mode .featured-card {
   color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   .featured-card {
     width: 100%; /* Full width on small screens */
   }
