@@ -40,7 +40,8 @@
     display: flex;
     align-items: center;
     font-size: 10px;
-    color: #fff;
+    color: #999;
+
   }
   .source-logo {
     width: 10%;
