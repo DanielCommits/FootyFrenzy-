@@ -45,7 +45,10 @@ const newsData = [
       },
       {
         type: "paragraph",
-        content: `If Match don finish, i go update everything. For now use the Livescore page`,
+        content: [
+          "Leicester 1-1 Everton",
+          "Everton held by Leicester at King Power Stadium; Iliman Ndiaye fires visitors into early lead; Second half delayed by seven minutes due to thunderstorm; Stephy Mavididi equalises for Leicester; Both sides remain winless after five Premier League matches ",
+        ],
       },
     ],
     date: "Just now",
