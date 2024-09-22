@@ -8,9 +8,9 @@ const TopStories = () => {
       title:
         "Premier League team news, injury latest, suspensions, previews and Fantasy Football - live updates",
       description:
-        "All the build-up as we gear up for another busy weekend of Premier League football, with Liverpool's Arne Slot and Newcastle's Eddie Howe having already spoken...",
+        "Live match updates.",
       image:
-        "https://e0.365dm.com/24/07/768x432/skysports-arne-slot-liverpool_6618489.jpg?20240705121427",
+        "https://e0.365dm.com/24/09/768x432/skysports-premier-league-liverpool_6692466.jpg?20240921160449",
       link: "/news/1",
       date: "Just now",
       source: "SkySports",
