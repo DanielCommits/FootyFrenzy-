@@ -11,48 +11,52 @@ const newsData = [
       {
         type: "paragraph",
         content: [
-          "West Ham 0-3 Chelsea",
+          "West Ham 0-3 Chelsea :",
           "Jackson scores twice and Cole Palmer adds third to clinch 3-0 win for Chelsea over woeful West Ham; Hammers have lost their first three home games of a league season for the first time in their history.",
         ],
       },
       {
         type: "paragraph",
         content: [
-          "Liverpool 3-0 Bournemouth",
+          "Liverpool 3-0 Bournemouth :",
           "Luis Diaz double and a first goal of the season from Darwin Nunez dispatch Bournemouth; Reds move top of the Premier League.",
         ],
       },
       {
         type: "paragraph",
         content: [
-          "Tottenham 3-1 Brentford",
+          "Tottenham 3-1 Brentford :",
           "Brentford scored inside 22 seconds for the second week running; Dominic Solanke opened his account for Spurs with the leveller; Brennan Johnson and James Maddison were also on target; Ange Postecoglou's side rise to 10th, while Brentford slip to 12th",
         ],
       },
       {
         type: "paragraph",
         content: [
-          "Aston Villa 3-1 Wolves",
+          "Aston Villa 3-1 Wolves :",
           "Late goals from Ollie Watkins, Ezri Konsa and Jhon Duran give Aston Villa a 3-1 win over Aston Villa to move level on points with Liverpool and Man City at the top of the Premier League; Wolves bottom despite strong performance and Matheus Cunha's first-half strike",
         ],
       },
       {
         type: "paragraph",
         content: [
-          "Fulham 3-1 Newcastle United",
+          "Fulham 3-1 Newcastle United :",
           " Fulham beat Newcastle United 3-1 at Craven Cottage; goals from Raul Jimenez, Emile Smith Rowe and substitute Reiss Nelson hand Cottagers all three points; Newcastle's consolation came from Harvey Barnes as visitors suffer first loss of the campaign",
         ],
       },
       {
         type: "paragraph",
         content: [
-          "Leicester 1-1 Everton",
+          "Leicester 1-1 Everton :",
           "Everton held by Leicester at King Power Stadium; Iliman Ndiaye fires visitors into early lead; Second half delayed by seven minutes due to thunderstorm; Stephy Mavididi equalises for Leicester; Both sides remain winless after five Premier League matches ",
         ],
       },
     ],
     date: "Just now",
   },
+
+
+
+
   {
     id: 2,
     logo: "https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small/youtube-logo-youtube-icon-transparent-free-png.png",
@@ -71,6 +75,10 @@ const newsData = [
     ],
     date: "12 hrs ago",
   },
+
+
+
+
   {
     id: 3,
     logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2022/6/1656507538717-blob",
@@ -133,6 +141,10 @@ const newsData = [
     ],
     date: "12 hrs ago",
   },
+
+
+
+
   {
     id: 4,
     logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
@@ -197,6 +209,10 @@ const newsData = [
     ],
     date: "20 Sept 2024",
   },
+
+
+
+
   {
     id: 5,
     logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2022/3/1647627159464-blob",
@@ -234,6 +250,12 @@ const newsData = [
     ],
     date: "17 Sept 2024",
   },
+
+
+
+
+
+
   {
     id: 6,
     logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
@@ -292,6 +314,11 @@ const newsData = [
     ],
     date: "4 hrs ago",
   },
+
+
+
+
+
   {
     id: 7,
     logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://images.onefootball.com/blogs_logos/circle_onefootball.png",
@@ -326,6 +353,15 @@ const newsData = [
     ],
     date: "12 hrs ago",
   },
+
+
+
+
+
+
+
+
+
   {
     id: 8,
     logo: "https://image-service.onefootball.com/transform?w=48&dpr=2&image=https://filebucket.onefootball.com/2024/1/1705342796853-blob",
@@ -356,6 +392,15 @@ const newsData = [
     ],
     date: "1 day ago",
   },
+
+
+
+
+
+
+
+
+
   {
     id: 9,
     logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
@@ -390,6 +435,11 @@ const newsData = [
     ],
     date: "15 Sept 2024",
   },
+
+
+
+
+  
   {
     id: 10,
     logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAY1BMVEXwcFrxcFrzclvla1bIXUvCWklDHxkiDw0nEg4+HRcfDgxlLyaiTDyrUD+VRTjobFfrblh1NiuJQDOYRzneZ1PSYk9vMyleKyNUJyAwFhKMQTXUY0+xUkI2GRQAAAB+Oi8WDAqYdywaAAAArElEQVR4AeWQAwLEMBAAwypGzf9/8q72Dzpx1gu+A0SvwFmGCX2B4EmKSBBGD8KYoElIE8ZvCM4SughDqcCI1vMad2SsCzeh0wgRP64UaQ+8R5nhJyGIgpyzoqzqpBFGI3i2TNvUMIN9KTvreg31Lhykxq0sWMZlELCc5QJrOcxCWFuqUVM5Qquq4b6RtveA2hqCCTUlqDVCY9IaaaXweKqtf/MG5zXvcPv8CH97RgrPkt+UTAAAAABJRU5ErkJggg==",
