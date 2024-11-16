@@ -150,7 +150,7 @@ const Header = () => {
             className="d-flex align-items-center"
           >
             <FaFutbol className="me-2" size={24} />
-            <div className={styles.sitename}>FootyFrenzy</div>
+            <div className={styles.sitename}>Frenzyball</div>
           </Link>
 
           <ul className="list-unstyled">
