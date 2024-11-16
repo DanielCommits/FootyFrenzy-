@@ -19,14 +19,14 @@ function Footer() {
         <div className="footer-logo-container">
           <Link to="/" className="footer-logo-link">
             <h1 className="sitename">
-              <FaFutbol /> FootyFrenzy
+              <FaFutbol /> Frenzyball
             </h1>
           </Link>
         </div>
 
         {/* Description Section */}
         <p className="footer-description">
-          FootyFrenzy provides a variety of information and resources related to
+        Frenzyball provides a variety of information and resources related to
           football, including news, scores, statistics, and analysis.
         </p>
 
